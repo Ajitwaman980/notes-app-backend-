@@ -1,0 +1,9 @@
+name = "Hono-demo"
+main = "src/index.ts"
+compatibility_date = "2024-03-07"
+
+[vars]
+DATABASE_URL="postgresql://postgres.eqhnpvyupffnzmehclfp:AdminHONO@1234@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
+
+[dev]
+port = 8787
