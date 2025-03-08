@@ -26,6 +26,9 @@ const app = new Hono<{
 
 // Middleware
 app.use(logger());
+app.get("/", (c) => {
+  return c.html("<h1>Welcome to Note Service</h1>");
+});
 
 app.post('/new/user', async (c) => {
   // Now you can use it wherever you want
